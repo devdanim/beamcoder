@@ -45,9 +45,7 @@
   },
   "optionalDependencies": {
     "@danim/beamcoder-win32-x64": "0.8.1",
-    "@danim/beamcoder-linux-x64": "0.8.0",
-    "@danim/beamcoder-darwin-arm64": "0.8.1",
-    "@danim/beamcoder-darwin-x64": "0.8.0"
+    "@danim/beamcoder-linux-x64": "0.8.0"
   },
   "files": [
     "index.js",
