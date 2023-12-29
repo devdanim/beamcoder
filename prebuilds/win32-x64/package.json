@@ -1,8 +1,8 @@
 {
-  "name": "@roamhq/beamcoder-win32-x64",
+  "name": "@danim/beamcoder-win32-x64",
   "version": "0.8.1",
   "description": "The Windows 64-bit binary for beamcoder.",
-  "repository": "https://github.com/WonderInventions/beamcoder",
+  "repository": "https://github.com/devdanim/beamcoder",
   "license": "GPL-3.0-or-later",
   "os": [
     "win32"

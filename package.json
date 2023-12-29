@@ -1,5 +1,5 @@
 {
-  "name": "@roamhq/beamcoder",
+  "name": "@danim/beamcoder",
   "version": "0.8.2",
   "description": "Node.js native bindings to FFmpeg.",
   "main": "index.js",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WonderInventions/beamcoder.git"
+    "url": "git+https://github.com/devdanim/beamcoder.git"
   },
   "bugs": {
-    "url": "https://github.com/WonderInventions/beamcoder/issues"
+    "url": "https://github.com/devdanim/beamcoder/issues"
   },
-  "homepage": "https://github.com/WonderInventions/beamcoder#readme",
+  "homepage": "https://github.com/devdanim/beamcoder#readme",
   "contributors": [
     "Streampunk Media Ltd",
     "Jack Duvall <jack@ro.am>"
@@ -44,10 +44,10 @@
     "tape": "^5.5.2"
   },
   "optionalDependencies": {
-    "@roamhq/beamcoder-win32-x64": "0.8.1",
-    "@roamhq/beamcoder-linux-x64": "0.8.0",
-    "@roamhq/beamcoder-darwin-arm64": "0.8.1",
-    "@roamhq/beamcoder-darwin-x64": "0.8.0"
+    "@danim/beamcoder-win32-x64": "0.8.1",
+    "@danim/beamcoder-linux-x64": "0.8.0",
+    "@danim/beamcoder-darwin-arm64": "0.8.1",
+    "@danim/beamcoder-darwin-x64": "0.8.0"
   },
   "files": [
     "index.js",

@@ -1,8 +1,8 @@
 {
-  "name": "@roamhq/beamcoder-darwin-x64",
+  "name": "@danim/beamcoder-darwin-x64",
   "version": "0.8.0",
   "description": "The MacOS 64-bit binary for beamcoder.",
-  "repository": "https://github.com/WonderInventions/beamcoder",
+  "repository": "https://github.com/devdanim/beamcoder",
   "license": "GPL-3.0-or-later",
   "os": [
     "darwin"

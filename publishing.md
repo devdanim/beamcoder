@@ -16,7 +16,7 @@ javascript.
 4. Edit the version number in the main `package.json`
 5. Repeat the above steps on all supported platforms (TODO: support
    cross-compilation someday?)
-6. `npm publish` in the root of the repository
+6. `npm publish --access public` in the root of the repository
 
 ## Adding a new supported platform
 

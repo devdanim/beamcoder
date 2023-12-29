@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/@roamhq/beamcoder.svg)](https://badge.fury.io/js/@roamhq/beamcoder)
+[![npm version](https://badge.fury.io/js/@danim/beamcoder.svg)](https://badge.fury.io/js/@danim/beamcoder)
 [![License](https://img.shields.io/badge/License-GPL%203.0%20or%20later-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 # Aerostat Beam Coder
 
@@ -15,7 +15,7 @@ View JPEGs in a browser of any key frame of media files in the current folder, e
 Beam coder uses promises and so the code for the server works well with Javascript's `async`/`await` feature and [koa](https://koajs.com) contexts:
 
 ```javascript
-const beamcoder = require('@roamhq/beamcoder');
+const beamcoder = require('@danim/beamcoder');
 const Koa = require('koa');
 const app = new Koa();
 
@@ -143,7 +143,7 @@ The basic usage pattern is as follows:
 Here is a simple example:
 
 ```javascript
-const beamcoder = require('@roamhq/beamcoder');
+const beamcoder = require('@danim/beamcoder');
 
 async function run() {
   let demuxer = await beamcoder.demuxer('/path/to/file.mp4'); // Create a demuxer for a file
@@ -164,7 +164,7 @@ async function run() {
 run();
 ```
 
-For mode examples, see the [`examples`](https://github.com/WonderInventions/beamcoder/tree/master/examples) folder.
+For mode examples, see the [`examples`](https://github.com/devdanim/beamcoder/tree/master/examples) folder.
 
 ### Values
 
